@@ -101,7 +101,7 @@ article{
     text-align: justify;
 }
 
-.conceptsColumn{
+.customColumn{
     width: 33%;
 }
 
@@ -120,6 +120,24 @@ section{
     height: calc(1000px * 9 / 16);
 }
 
+
+aside{
+    text-align: center;
+    background-color: #130e0e;
+}
 .videoLinuxRow{
     width: 100%;
+}
+
+.distroImg{
+    width: 180px;
+}
+
+.distroLink{
+    display: block;
+    text-decoration: underline;
+}
+
+aside h1{
+    padding-bottom: 0px;
 }
