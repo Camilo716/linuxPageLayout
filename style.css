@@ -4,34 +4,17 @@
     box-sizing: border-box;
     font-family: 'Fira Code', monospace;
 
-    --secondary-color: #9c27b0;
+    --secondary-color: #aa3030;
     --color-accent: #fff; /* blanco */
-    --color-background: #1f1f1f; /* negro */
+    --color-background: #130e0e; /* negro */
     --color-text: #fff; /* blanco */
     --color-text-secondary: #b6b6b6; /* gris claro */
-}
-
-header{
-    height: 30vh;
-    background-image: url('./img/background.jpg');
-    background-size: cover;
-    text-align: center;
-
-}
-
-.mainTitle{
-    padding-top: 6vh;
-    font-size: 80px;
-    color: var(--color-text);
 }
 
 table{
     width: 100%;
 }
 
-.tdTittle{
-    width: 33%;
-}
 
 .logo{
     width: 50px;
@@ -39,12 +22,50 @@ table{
     margin-left: 30px;
 }
 
+header{
+    height: 30vh;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+h2{
+    color: var(--color-accent);
+}
+
+p{
+    color: var(--color-text-secondary);
+    font-size: 20px;
+    padding: 30px 70px;
+    text-align: center;
+}
+
+
+.tdTittle{
+    width: 33%;
+}
+
+.principalTitle{
+    font-size: 80px;
+    color: var(--color-text);
+}
+
 nav{
-    background-color: black;
+    background-color:black;
 }
 
 a{
-    color: var(--secondary-color);
+    color: var(--color-text-secondary);
     text-decoration: none;
     margin: 20px;
 }
@@ -57,26 +78,48 @@ ul{
     float: right;
 }
 
-.mainImage{
+.whyLinuxImage{
     height: 500px;
     margin: 50px;
 }
 
-.mainTable{
+.whyLinuxTable{
     background-color:  black;
 }
 
 .tdText{
     text-align: center;
 }
-.tdText h1{
-    color: var(--color-text);
-    font-size: 50px;
-    padding-bottom: 30px;
+
+article{
+    background-color: #130e0e;
+    padding: 30px;
 }
 
-.tdText p{
-    color: var(--color-text-secondary);
-    font-size: 20px;
-    padding: 0px 70px;
+
+.customP{
+    text-align: justify;
+}
+
+.conceptsColumn{
+    width: 33%;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.videoLinux{
+    width: 1000px;
+    height: calc(1000px * 9 / 16);
+}
+
+.videoLinuxRow{
+    width: 100%;
 }
