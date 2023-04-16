@@ -5,10 +5,10 @@
     font-family: 'Fira Code', monospace;
 
     --secondary-color: #aa3030;
-    --color-accent: #fff; /* blanco */
-    --color-background: #130e0e; /* negro */
-    --color-text: #fff; /* blanco */
-    --color-text-secondary: #b6b6b6; /* gris claro */
+    --color-accent: #fff;
+    --color-background1: #000; 
+    --color-background2: #130e0e;
+    --color-text-secondary: #b6b6b6;
 }
 
 table{
@@ -57,11 +57,12 @@ p{
 
 .principalTitle{
     font-size: 80px;
-    color: var(--color-text);
+    color: var(--color-accent);
 }
 
 nav{
-    background-color:black;
+    background-color:var(--color-background1);
+    border: solid var(--color-accent) 1px;
 }
 
 a{
@@ -83,8 +84,8 @@ ul{
     margin: 50px;
 }
 
-.whyLinuxTable{
-    background-color:  black;
+main{
+    background-color:  var(--color-background1);
 }
 
 .tdText{
@@ -92,7 +93,7 @@ ul{
 }
 
 article{
-    background-color: #130e0e;
+    background-color: var(--color-background2);
     padding: 30px;
 }
 
@@ -110,7 +111,7 @@ h2{
 }
 
 section{
-    background-color: black;
+    background-color: var(--color-background1);
     padding: 30px;
     text-align: center;
 }
@@ -123,14 +124,15 @@ section{
 
 aside{
     text-align: center;
-    background-color: #130e0e;
+    background-color: var(--color-background2);
+    padding-bottom: 20px;
 }
 .videoLinuxRow{
     width: 100%;
 }
 
 .distroImg{
-    width: 180px;
+    height: 200px;
 }
 
 .distroLink{
@@ -140,4 +142,17 @@ aside{
 
 aside h1{
     padding-bottom: 0px;
+}
+
+.footerP{
+    float: left;
+}
+
+footer{
+    background-color: var(--color-background1);
+    border: solid var(--color-accent) 1px;
+}
+
+.footerTable img{
+    width: 20px;
 }
