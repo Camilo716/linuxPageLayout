@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Fira Code', monospace;
 
-    --secondary-color: #aa3030;
-    --color-accent: #fff;
-    --color-background1: #000; 
-    --color-background2: #130e0e;
-    --color-text-secondary: #b6b6b6;
+    --secondaryColor: #aa3030;
+    --colorAccent: #fff;
+    --colorBackground1: #000; 
+    --colorBackground2: #130e0e;
+    --colorTextSecondary: #b6b6b6;
 }
 
 table{
@@ -33,18 +33,18 @@ header{
 }
 
 h1{
-    color: var(--secondary-color);
+    color: var(--secondaryColor);
     font-size: 50px;
     padding: 30px;
     text-align: center;
 }
 
 h2{
-    color: var(--color-accent);
+    color: var(--colorAccent);
 }
 
 p{
-    color: var(--color-text-secondary);
+    color: var(--colorTextSecondary);
     font-size: 20px;
     padding: 30px 70px;
     text-align: center;
@@ -57,16 +57,16 @@ p{
 
 .principalTitle{
     font-size: 80px;
-    color: var(--color-accent);
+    color: var(--colorAccent);
 }
 
 nav{
-    background-color:var(--color-background1);
-    border: solid var(--color-accent) 1px;
+    background-color:var(--colorBackground1);
+    border: solid var(--colorAccent) 1px;
 }
 
 a{
-    color: var(--color-text-secondary);
+    color: var(--colorTextSecondary);
     text-decoration: none;
     margin: 20px;
 }
@@ -85,7 +85,7 @@ ul{
 }
 
 main{
-    background-color:  var(--color-background1);
+    background-color:  var(--colorBackground1);
 }
 
 .tdText{
@@ -93,7 +93,7 @@ main{
 }
 
 article{
-    background-color: var(--color-background2);
+    background-color: var(--colorBackground2);
     padding: 30px;
 }
 
@@ -111,7 +111,7 @@ h2{
 }
 
 section{
-    background-color: var(--color-background1);
+    background-color: var(--colorBackground1);
     padding: 30px;
     text-align: center;
 }
@@ -124,7 +124,7 @@ section{
 
 aside{
     text-align: center;
-    background-color: var(--color-background2);
+    background-color: var(--colorBackground2);
     padding-bottom: 20px;
 }
 .videoLinuxRow{
@@ -149,8 +149,8 @@ aside h1{
 }
 
 footer{
-    background-color: var(--color-background1);
-    border: solid var(--color-accent) 1px;
+    background-color: var(--colorBackground1);
+    border: solid var(--colorAccent) 1px;
 }
 
 .footerTable img{
